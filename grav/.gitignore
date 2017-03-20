@@ -1,0 +1,11 @@
+# Grav Specific
+.sass-cache
+cache/*
+assets/*
+logs/*
+images/*
+user/data/*
+user/config/*
+user/accounts/*
+vendor/
+backup/

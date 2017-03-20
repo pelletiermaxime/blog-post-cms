@@ -1,0 +1,33 @@
+title: Deatures
+@extends:
+    type: default
+    context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+
+      fields:
+        features:
+          type: tab
+          title: Features
+
+          fields:
+            header.objecfeaturestifs:
+              name: features
+              type: list
+              label: Features
+
+              fields:
+                .title:
+                  type: text
+                  label: Title
+                .middle:
+                  type: text
+                  label: Middle
+                .bottom:
+                  type: text
+                  label: Bottom
+                .content:
+                  type: editor
+                  label: Content
